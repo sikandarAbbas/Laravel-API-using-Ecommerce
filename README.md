@@ -22,7 +22,6 @@ composer install
 
 php artisan key:generate
 php artisan migrate
-php artisan db:seed
 php artisan storage:link
 ./magic-commands.sh
 
@@ -46,3 +45,5 @@ Product API:        URL:http://127.0.0.1:8000/api/products
 Product Single API: URL:http://127.0.0.1:8000/api/products/4
 Product Review API: URL:http://127.0.0.1:8000/api/products/4/reviews
 
+## Run api collection in postman
+--see file Test api.postman_collection.json import in postman
